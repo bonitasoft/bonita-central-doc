@@ -3,7 +3,7 @@ name: Build PR preview
 on:
   pull_request:
     # To manage 'surge-preview' action teardown, add default event types + closed event type
-    types: [ opened, synchronize, reopened, closed ]
+    types: [opened, synchronize, reopened, closed]
     paths:
       - 'modules/**'
       - 'antora.yml'
@@ -13,27 +13,11 @@ jobs:
     runs-on: ubuntu-22.04
     permissions:
       pull-requests: write # surge-preview write PR comments
-    env:
-      COMPONENT_NAME: apps-manager
-      COMPONENT_VERSION: ${{ github.base_ref }} # The base_ref or target branch of the pull request in a workflow run.
-      COMPONENT_BRANCH_NAME: ${{ github.head_ref }}
-      # Required to pass xref validation
-      BCD_BRANCH: '3.6'
-      BONITA_BRANCH: '2023.1'
-      CLOUD_BRANCH: 'master'
-      BONITA_BRANCH_FOR_CLOUD: '2022.1'
     steps:
       - name: Build and publish PR preview
-        uses: bonitasoft/bonita-documentation-site/.github/actions/build-and-publish-pr-preview/@master
+        uses: bonitasoft/bonita-documentation-site/.github/actions/build-and-publish-pr-preview@master
         with:
           surge-token: ${{ secrets.SURGE_TOKEN_DOC }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          # '>' Replace newlines with spaces (folded)
-          # '-' No newline at end (strip)
-          build-preview-command: >-
-            ./build-preview.bash --use-multi-repositories
-            --start-page "${{ env.COMPONENT_VERSION }}"@"${{ env.COMPONENT_NAME }}"::installation-guide.adoc
-            --component-with-branches "${{ env.COMPONENT_NAME }}":"${{ env.COMPONENT_BRANCH_NAME }}"
-            --component-with-branches bcd:"${{ env.BCD_BRANCH }}" 
-            --component-with-branches bonita:"${{ env.BONITA_BRANCH }},${{ env.BONITA_BRANCH_FOR_CLOUD }}"
-            --component-with-branches cloud:"${{ env.CLOUD_BRANCH }}"
+          component-name: apps-manager
+          ignore-errors: false
