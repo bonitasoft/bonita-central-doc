@@ -14,7 +14,7 @@ jobs:
     permissions:
       pull-requests: write # surge-preview write PR comments
     env:
-      COMPONENT_NAME: test-toolkit
+      COMPONENT_NAME: apps-manager
       COMPONENT_VERSION: ${{ github.base_ref }} # The base_ref or target branch of the pull request in a workflow run.
       COMPONENT_BRANCH_NAME: ${{ github.head_ref }}
       # Required to pass xref validation
