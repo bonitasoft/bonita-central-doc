@@ -1,1 +1,0 @@
-# bonita-apps-manager-doc
