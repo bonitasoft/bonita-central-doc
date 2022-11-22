@@ -1,6 +1,7 @@
 name: apps-manager
 title: Bonita Apps Manager
 version: 1.0
+prerelease: .alpha-01
 asciidoc:
   attributes:
     appsManagerVersion: 1.0
