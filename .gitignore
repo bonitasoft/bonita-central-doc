@@ -1,0 +1,13 @@
+_book
+**/node_modules
+**/*.swp
+**/dataimport.properties
+**/managed-schema
+**/*.bak
+**/*.pdf
+build/html/*
+.idea/
+*.iml
+*.orig
+/.project
+*.DS_Store

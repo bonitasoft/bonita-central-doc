@@ -1,0 +1,14 @@
+name: apps-manager
+title: Bonita Apps Manager
+version: 1.0
+asciidoc:
+  attributes:
+    appsManagerVersion: 1.0
+    # page attributes
+    page-editable: true
+    page-out-of-support: false
+    page-pagination: true # display links to previous/next pages at the bottom of the page
+    page-hide-search-bar: false
+
+nav:
+  - modules/ROOT/taxonomy.adoc
