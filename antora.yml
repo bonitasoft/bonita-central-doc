@@ -2,7 +2,7 @@ name: apps-manager
 title: Bonita Apps Manager
 version: 1.0
 prerelease: .alpha-01
-start_page: ROOT:installation-guide.adoc
+start_page: ROOT:home-page.adoc
 asciidoc:
   attributes:
     appsManagerVersion: 1.0

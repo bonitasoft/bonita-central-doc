@@ -1,1 +1,1 @@
-* xref:installation-guide.adoc[Installation guide]
+* xref:home-page.adoc[Home page]

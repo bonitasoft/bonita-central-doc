@@ -1,5 +1,0 @@
-= Installation guide
-
-:description: details the apps manager installation guide
-
-This page will explain how to install and first launch apps manager
