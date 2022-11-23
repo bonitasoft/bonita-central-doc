@@ -1,0 +1,16 @@
+name: Contribution checks
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  pr-content-check:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check PR content
+        uses: bonitasoft/actions/packages/pr-diff-checker@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          diffDoesNotContain: '["https://documentation.bonitasoft.com/", "Bonita BPM"]'
+          extensionsToCheck: '[".adoc"]'
