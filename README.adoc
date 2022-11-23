@@ -2,7 +2,7 @@
 
 = Bonita test toolkit documentation
 
-This repository contains the sources of the https://documentation.bonitasoft.com/bonita-apps-manager-doc[Bonita Apps Manager documentation site]. It uses https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc] format for
+This repository contains the sources of the https://documentation.bonitasoft.com/bonita-apps-manager-doc[Bonita Apps Manager documentation site]. It uses the https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc] format for
 the documentation content.
 
 
