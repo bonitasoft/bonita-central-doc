@@ -1,3 +1,12 @@
-**/*.pdf
-build/html/*
+# IDE
+# IntelliJ
 .idea/
+*.iml
+# VSCode
+.vscode/
+# Eclipse
+.project
+.classpath
+
+# macOS
+*.DS_Store
