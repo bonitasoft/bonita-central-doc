@@ -1,5 +1,0 @@
-= Home
-
-:description: index page for the project
-
-This page will act as a main page, it will be modified at a later date.
