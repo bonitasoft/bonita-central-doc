@@ -21,5 +21,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           component-name: apps-manager
           ignore-errors: false
-          doc-site-branch: feat/add_apps-manager-doc-content
 
