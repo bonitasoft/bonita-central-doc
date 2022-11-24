@@ -5,9 +5,9 @@ on:
     # To manage 'surge-preview' action teardown, add default event types + closed event type
     types: [opened, synchronize, reopened, closed]
     paths:
+      - '.github/workflows/build-pr-preview.yml'
       - 'modules/**'
       - 'antora.yml'
-      - '.github/workflows/build-pr-preview.yml'
 jobs:
   build_preview:
     runs-on: ubuntu-22.04
