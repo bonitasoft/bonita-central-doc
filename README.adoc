@@ -1,4 +1,4 @@
-= Bonita Apps Manager documentation
+= Bonita Central documentation
 
 This repository contains the sources of the https://documentation.bonitasoft.com/apps-manager[Bonita Apps Manager documentation site]. It uses the https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc] format for
 the documentation content.
