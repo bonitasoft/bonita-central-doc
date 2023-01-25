@@ -1,6 +1,6 @@
-= Bonita Apps Manager
-:description: Learn how to use the Bonita Apps Manager and all of its components.
+= Bonita Central
+:description: Learn how to use the Bonita Central and all of its components.
 
-Welcome to Bonita Apps Manager.
+Welcome to Bonita Central.
 
 NOTE: documentation writing in progress
