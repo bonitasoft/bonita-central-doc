@@ -19,6 +19,6 @@ jobs:
         with:
           surge-token: ${{ secrets.SURGE_TOKEN_DOC }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          component-name: apps-manager
+          component-name: central
           ignore-errors: false
 
