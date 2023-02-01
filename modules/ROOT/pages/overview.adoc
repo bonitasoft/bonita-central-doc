@@ -1,13 +1,17 @@
 = Bonita Central
-:description: Welcome to Bonita Central.
+:description: Bonita Central.
+
+Welcome to Bonita Central, the production management tool that: 
+
+- “has all in one place” for configuration 
+
+- “knows all” for monitoring and error analysis (logs)
 
 Learn how to use the Bonita Central and all of its components.
 
-Welcome to Bonita Central.
-
 [NOTE]
 ====
-The Bonita Central is only available under license. 
+Bonita Central is only available under license. 
 ====
 
 == Motivations
