@@ -1,0 +1,50 @@
+= Bonita Central
+:description: Welcome to Bonita Central.
+
+Learn how to use the Bonita Central and all of its components.
+
+Welcome to Bonita Central.
+
+[NOTE]
+====
+The Bonita Central is only available under license. 
+====
+
+== Motivations
+
+The need of a central supervision and administration tool has been expressed by our customers using multi-runtimes. 
+
+Technical monitoring is a need users are having with BPMN tools for years. Bonita Central aims to make things clear not only for technical monitoring but also for Bonita Runtime's health status and configuration. 
+
+
+Runtimes - individual or in cluster - supervision with health state dashboard 
+
+Runtimes - individual or in cluster - configuration visual display and the possibility to download it under json format file 
+
+
+== Prerequisites
+Runtimes in cluster have to be in the same technical version. 
+
+=== Supported Bonita Runtime version
+
+Multi-tenancy is not supported.
+
+[%header,cols="1,1"]
+
+|===
+|Bonita Central component
+|Runtimes - individual or in cluster
+
+|Health-check
+|7.12.y, 7.13.y, 7.14.y, 7.15.y, 8.0.0
+
+|Configuration
+|7.12.y, 7.13.y, 7.14.y, 7.15.y, 8.0.0
+
+|Monitoring
+|7.13.y, 7.14.y, 7.15.y, 8.0.0
+
+|===
+
++++*+++ There are known limitations with those runtime versions: 
+

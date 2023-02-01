@@ -1,6 +1,0 @@
-= Bonita Central
-:description: Learn how to use the Bonita Central and all of its components.
-
-Welcome to Bonita Central.
-
-NOTE: documentation writing in progress
