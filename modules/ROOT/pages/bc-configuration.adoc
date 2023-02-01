@@ -1,1 +1,2 @@
-
+= Configuration in Bonita Central 
+:description: Configuration in Bonita Central
