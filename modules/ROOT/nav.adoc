@@ -1,6 +1,7 @@
 * xref:overview.adoc[Home page]
 * xref:bc-installation.adoc[Installation]
 * Getting started presentation
+  ** xref:bc-app-declaration.adoc[Application Declaration]
   ** xref:bc-configuration.adoc[Configuration]
   ** xref:bc-monitoring.adoc[Monitoring]
 
