@@ -1,2 +1,2 @@
-Application declaration 
+= Application declaration 
 :description: How to declare your application
