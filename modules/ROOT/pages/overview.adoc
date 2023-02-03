@@ -11,9 +11,7 @@ Learn how to use the Bonita Central and all of its components.
 
 [NOTE]
 ====
-
 Bonita Central is only available under license. 
-
 ====
 
 == Motivations
@@ -53,5 +51,8 @@ Multi-tenancy is not supported.
 
 |===
 
-+++*+++ There are known limitations with those runtime versions: 
+*Bonita Central* will be able to connect and display information in : 
+
+- Degraded mode with Bonita Runtime from 2021.1 till Bonita Runtime 2022.2 based on their technical capabilities 
+- Full mode starting  with Bonita Runtime 2023.1
 
