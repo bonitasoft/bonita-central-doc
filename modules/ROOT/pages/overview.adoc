@@ -11,19 +11,22 @@ Learn how to use the Bonita Central and all of its components.
 
 [NOTE]
 ====
+
 Bonita Central is only available under license. 
+
 ====
 
 == Motivations
 
 The need of a central supervision and administration tool has been expressed by our customers using multi-runtimes. 
 
-Technical monitoring is a need users are having with BPMN tools for years. Bonita Central aims to make things clear not only for technical monitoring but also for Bonita Runtime's health status and configuration. 
+Technical monitoring is a need users are having with BPMN tools for years. Bonita Central aims to make things clear not only for technical monitoring and health status but also for Bonita Runtime's configuration. 
 
+For Runtimes - individual or in cluster: 
 
-Runtimes - individual or in cluster - supervision with health state dashboard 
+- directly from the overview page it will be possible to monitor all Bonita nodes health status in a single look 
 
-Runtimes - individual or in cluster - configuration visual display and the possibility to download it under json format file 
+- it will be possible to visualize the current configuration and download it under json format file
 
 
 == Prerequisites
