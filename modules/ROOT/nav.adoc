@@ -1,1 +1,8 @@
-* xref:index.adoc[Home page]
+* xref:overview.adoc[Home page]
+* Getting started 
+  ** xref:bc-installation.adoc[Installation]
+  ** xref:bc-app-declaration.adoc[Application Declaration]
+* Components 
+  ** xref:bc-configuration.adoc[Configuration]
+  ** xref:bc-monitoring.adoc[Monitoring]
+

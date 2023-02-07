@@ -1,0 +1,64 @@
+= Bonita Central
+:description: Bonita Central.
+
+Welcome to Bonita Central, the production management tool that: 
+
+- “has all in one place” for configuration 
+
+- “knows all” for monitoring and error analysis (logs)
+
+Learn how to use the Bonita Central and all of its components.
+
+[NOTE]
+====
+Bonita Central is only available under license. 
+====
+
+== Motivations
+
+The need of a central supervision and administration tool has been expressed by our customers using multi-runtimes. 
+
+Technical monitoring is a need users are having with BPMN tools for years. Bonita Central aims to make things clear not only for technical live monitoring and health status but also for Bonita Runtime's configuration. 
+
+For Runtimes - individual or in cluster: 
+
+- directly from the overview page it will be possible to live monitor all Bonita nodes health status in a single look 
+
+- it will be possible to visualize the current configuration and download it under json format file
+
+
+== Prerequisites
+Runtimes in cluster have to be in the same technical version. 
+
+=== Supported Bonita Runtime version
+
+Multi-tenancy is not supported.
+
+[%header,cols="1,1"]
+
+|===
+|Bonita Central component
+|Runtimes - individual or in cluster
+
+|Health-check
+|7.12.y, 7.13.y, 7.14.y, 7.15.y, 8.0.0
+
+|Configuration
+|7.12.y, 7.13.y, 7.14.y, 7.15.y, 8.0.0
+
+|Monitoring
+|7.13.y, 7.14.y, 7.15.y, 8.0.0
+
+|===
+
+*Bonita Central* will be able to connect and display information in : 
+
+- Degraded mode with Bonita Runtime from 2021.1 till Bonita Runtime 2022.2 based on their technical capabilities 
+- Full mode starting  with Bonita Runtime 2023.1
+
+Not available with *Bonita Central*: 
+- Monitoring of Bonita Runtimes with expired license
+- Do changes in Bonita Runtime
+- Manage a process or a case
+- Save monitoring data for further analysis 
+
