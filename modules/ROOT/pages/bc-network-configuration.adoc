@@ -1,0 +1,15 @@
+= Configuring Bonita Central network
+:description: Configuring Bonita Central network
+
+== Single node configuration
+
+With a single node, the network configuration is easy, Bonita Central is directly connected to the node.
+
+
+== Cluster configuration
+
+With a cluster, Bonita Central is connected to the load balancer. It allows to check the health of the cluster, as well as get its configuration. +
+For monitoring, Bonita Central requires a direct access the cluster nodes, so that it can get the metrics for each node.
+To do this, it may be required to add a network route so that the nodes are accessible from Bonita Central.
+
+image::BC_archi_cluster.png[Bonita Central with cluster]
