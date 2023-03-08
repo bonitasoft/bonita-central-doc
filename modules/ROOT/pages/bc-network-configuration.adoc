@@ -5,7 +5,7 @@
 
 With a Bonita runtime deployed as a single node, the network configuration is easy, Bonita Central is directly connected to the node.
 
-image::BC_archi_single.png[Bonita Central with single node]
+image::images/BC_archi_single.png[Bonita Central with single node]
 
 == Cluster configuration
 
@@ -13,4 +13,4 @@ With a Bonita runtime deployed as a cluster, Bonita Central is connected to the 
 For monitoring, Bonita Central requires a direct access the cluster nodes, so that it can get the metrics for each node.
 To allow this, if Bonita Central is not on the same network that the nodes, it may be required to add a network route so that the nodes are accessible from Bonita Central.
 
-image::BC_archi_cluster.png[Bonita Central with cluster]
+image::images/BC_archi_cluster.png[Bonita Central with cluster]
