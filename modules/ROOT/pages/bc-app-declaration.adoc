@@ -34,6 +34,5 @@ If one of the following authentication method is used : Basic authentication, LD
 
 Once Bonita Central will connect to Bonita Runtime, an agent will be installed in Bonita Runtime. Also, a dedicated technical user only authorized to exchange data with Bonita Central will be then created in Bonita Runtime organization with the appropriate permissions. In order for those permissions to be taken into account, a restart of Bonita Runtime is required. 
 
-
-
+Once the card with the application in green status is displaied, healtcheck, monitoring and configuration for this application is available. 
 
