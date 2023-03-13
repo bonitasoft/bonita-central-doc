@@ -1,2 +1,24 @@
-= Configuration in Bonita Central 
+= Configuration in Bonita Central
 :description: Configuration in Bonita Central
+
+Once an application is connected from Bonita Central, you can access to the Runtime configuration from the application card. +
+It is displayed as a single (paginated) table, with three columns: the configuration attribute, its value, and the related configuration file path.
+
+[NOTE]
+For now, the configuration is in read-only mode: you cannot change the configuration from Bonita Central
+
+== Searching
+
+Since there are many configuration attributes in a Bonita Runtime, the search feature is essential.
+You can search any string, from the configuration attribute names, attribute values, or configuration files.
+
+For instance, enter "hibernate-cache" to display the configuration related to Hibernate caching.
+
+== Sorting
+
+From each column, you can sort the page alphabetically by clicking on the column header.
+
+== Downloading the configuration
+
+You can download the whole configuration as a JSON format by clicking on the download button.
+It may be used for offline analysis or sent to the Bonita support team.
