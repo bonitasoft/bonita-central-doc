@@ -1,9 +1,9 @@
 * xref:overview.adoc[Home page]
 * Getting started
-  ** xref:bc-installation.adoc[Installation]
-** xref:bc-app-declaration.adoc[Application Declaration]
-** xref:bc-network-configuration.adoc[Network Configuration]
+  ** xref:installation.adoc[Installation]
+** xref:application-declaration.adoc[Application Declaration]
+** xref:network-configuration.adoc[Network Configuration]
 * Components
-  ** xref:bc-configuration.adoc[Configuration]
-  ** xref:bc-monitoring.adoc[Monitoring]
+  ** xref:configuration.adoc[Configuration]
+  ** xref:monitoring.adoc[Monitoring]
 
