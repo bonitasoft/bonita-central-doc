@@ -1,5 +1,5 @@
-= Application declaration 
-:description: Application declaration 
+= Applications declaration 
+:description: Applications declaration 
 
 In Bonita Central, we refer as application to the entity that will be built and run by Bonita. It is the content of a unique Git repository. 
 One Runtime will be able to host several applications that share the same Business Data Model. 
