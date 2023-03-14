@@ -1,7 +1,7 @@
 * xref:overview.adoc[Home page]
 * Getting started
   ** xref:installation.adoc[Installation]
-** xref:application-declaration.adoc[Application Declaration]
+** xref:applications-declaration.adoc[Applications Declaration]
 ** xref:network-configuration.adoc[Network Configuration]
 * Components
   ** xref:configuration.adoc[Configuration]

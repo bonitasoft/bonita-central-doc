@@ -26,13 +26,23 @@ For Runtimes - individual or in cluster:
 
 - it will be possible to visualize the current configuration and download it under json format file
 
+== What's in it for you? 
+
+In this first release, healthcheck of all the declared applications in a single dashboard. Up to 12 application-cards on the overview page without scrolling. Perfect visual management for your ops team!
+
+Based on years of support experience, we have identified common patterns and mistakes that “Bonita Central” will help you solve before it becomes an issue on your environment and you'll have to contact Bonitasoft Support. 
+
+For each application, directly from “Bonita Central” you can deep dive into the Monitoring view to better qualify the issue. When necessary the last known application configuration is available, even when the application is stopped or down. This way, in case of issue related to a bad configuration the information will be available within your fingertips.
 
 == Prerequisites
 Runtimes in cluster have to be in the same technical version. 
 
-=== Supported Bonita Runtime version
+== Supported Bonita Runtime version
 
-Multi-tenancy is not supported.
+[WARNING]
+====
+Bonita Runtimes configured in multi-tenancy are not supported.
+====
 
 [%header,cols="1,1"]
 
