@@ -1,28 +1,28 @@
-= Applications declaration 
-:description: Applications declaration 
+= Applications declaration
+:description: Applications declaration
 
-In Bonita Central, we refer as application to the entity that will be built and run by Bonita. It is the content of a unique Git repository. 
-One Runtime will be able to host several applications that share the same Business Data Model. 
+In Bonita Central, we refer as application to the entity that will be built and run by Bonita. It is the content of a unique Git repository.
+One Runtime will be able to host several applications that share the same Business Data Model.
 
 == Prerequisites
-. All Runtimes (nodes) linked to an application space should have the same version. 
+. All Runtimes (nodes) linked to an application space should have the same version.
 . To facilitate the data exchange, install Bonita Central in the same network as your Bonita Runtimes. If not, since Bonita Central requires direct access to the nodes, authorization to the network will be required. See xref:ROOT:network-configuration.adoc[network configuration] for details.
-. Have Bonita Runtime admin credentials 
+. Have Bonita Runtime admin credentials
 
-== How to declare an application ? 
+== How to declare an application ?
 
-After installing Bonita Central, the first thing you will have to do is adding the applications you want to supervise. 
-Nothing easier because you will be able to do it directly from the overview page. 
+After installing Bonita Central, the first thing you will have to do is adding the applications you want to supervise.
+Nothing easier because you will be able to do it directly from the overview page.
 
-The only information you will have to provide is : 
+The only information you will have to provide is :
 
-* A name and a description for the application. Make it transparent both for technical and business users 
-* Runtime end point to access it : URL, IP address. For Runtimes in a cluster it will be load balancer's URL/IP address. 
+* A name and a description for the application. Make it transparent both for technical and business users
+* Runtime end point to access it : URL, IP address. For Runtimes in a cluster it will be load balancer's URL/IP address.
 * Connection credentials - Bonita Runtime admin username and password. This information will not be stored in Bonita Central. It will only be used to establish a connection with the engine.
 
 [NOTE]
 ====
-If one of the following authentication method is used : Basic authentication, LDAP, SSO, the following should be applied: 
+If one of the following authentication method is used : Basic authentication, LDAP, SSO, the following should be applied:
 
 * The username should be known in Bonita Runtime organization
 * The username should not be assigned to a real member of your organization
@@ -30,14 +30,14 @@ If one of the following authentication method is used : Basic authentication, LD
 * The credentials will only be used for data exchange
 ====
 
-=== Establishing a connection with Bonita Runtime 
+=== Establishing a connection with Bonita Runtime
 
 Once Bonita Central will connect to Bonita Runtime, an agent will be installed in Bonita Runtime. Also, a dedicated technical user only authorized to exchange data with Bonita Central will be then created in Bonita Runtime organization with the appropriate permissions.  This user will be only authorized to exchange data with Bonita Central.
 
-[WARNING] 
+[WARNING]
 ====
-In order for those permissions to be taken into account, a restart of Bonita Runtime is required. 
+In order for those permissions to be taken into account, a restart of Bonita Runtime is required.
 ====
 
-Once applications's card is in green status, healtcheck, monitoring and configuration for the application are available. 
+Once application's card is in green status, healthcheck, monitoring and configuration for the application are available.
 
