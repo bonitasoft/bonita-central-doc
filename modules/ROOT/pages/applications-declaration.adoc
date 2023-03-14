@@ -6,7 +6,7 @@ One Runtime will be able to host several applications that share the same Busine
 
 == Prerequisites
 . All Runtimes (nodes) linked to an application space should have the same version. 
-. To facilitate the data exchange, install Bonita Central in the same network as your Bonita Runtimes. If not, authorization to the network will be required. 
+. To facilitate the data exchange, install Bonita Central in the same network as your Bonita Runtimes. If not, since Bonita Central requires direct access to the nodes, authorization to the network will be required. See xref:ROOT:network-configuration.adoc[network configuration] for details.
 . Have Bonita Runtime admin credentials 
 
 == How to declare an application ? 
@@ -17,7 +17,7 @@ Nothing easier because you will be able to do it directly from the overview page
 The only information you will have to provide is : 
 
 * A name and a description for the application. Make it transparent both for technical and business users 
-* Runtime end point - URL, IP adress - to access it 
+* Runtime end point to access it : URL, IP address. For Runtimes in a cluster it will be load balancer's URL/IP address. 
 * Connection credentials - Bonita Runtime admin username and password. This information will not be stored in Bonita Central. It will only be used to establish a connection with the engine.
 
 [NOTE]
@@ -32,7 +32,12 @@ If one of the following authentication method is used : Basic authentication, LD
 
 === Establishing a connection with Bonita Runtime 
 
-Once Bonita Central will connect to Bonita Runtime, an agent will be installed in Bonita Runtime. Also, a dedicated technical user only authorized to exchange data with Bonita Central will be then created in Bonita Runtime organization with the appropriate permissions. In order for those permissions to be taken into account, a restart of Bonita Runtime is required. 
+Once Bonita Central will connect to Bonita Runtime, an agent will be installed in Bonita Runtime. Also, a dedicated technical user only authorized to exchange data with Bonita Central will be then created in Bonita Runtime organization with the appropriate permissions.  This user will be only authorized to exchange data with Bonita Central.
 
-Once the card with the application in green status is displaied, healtcheck, monitoring and configuration for this application is available. 
+[WARNING] 
+====
+In order for those permissions to be taken into account, a restart of Bonita Runtime is required. 
+====
+
+Once applications's card is in green status, healtcheck, monitoring and configuration for the application are available. 
 
