@@ -1,2 +1,27 @@
-= Monitoring in Bonita Central 
-:description: Monitoring in Bonita Central 
+= Monitoring in Bonita Central
+:description: Monitoring in Bonita Central
+
+Once an application is connected from Bonita Central, you can access the Runtime monitoring from the application card. +
+A set of metrics are displayed with dedicated widgets, related to Runtime works, connectors, sessions, JVM, ...
+
+== Refreshing the monitoring values
+
+By default, the metrics are regularly refreshed on the monitoring page. This can be disabled using the Auto refresh slider.
+Moreover, a manual refresh can be triggered on demand by clicking on the Refresh button.
+
+
+== Monitoring a cluster
+
+A cluster is a collection of nodes each running a Bonita Runtime.
+To be monitored, each node should be accessible from Bonita Central.
+See xref:ROOT:network-configuration.adoc[network configuration] for details. +
+Since the application has been connected through its load balancer, Bonita Central may need connection information for each node.
+
+Bonita Central try to connect to each node using usual port and paths.
+If it does not succeed (typically if the port is not the default one), a warning is raised.
+Then, the connections can be configured by clicking on the Configure button:
+
+- An URL should be entered for each node
+- A Connect button allows to check the connection
+
+Once the configuration is done, the monitoring page shows a set of metrics for each node.
