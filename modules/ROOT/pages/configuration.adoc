@@ -1,11 +1,11 @@
 = Configuration in Bonita Central
 :description: Configuration in Bonita Central
 
-Once an application is connected from Bonita Central, you can access to the Runtime configuration from the application card. +
-It is displayed as a single (paginated) table, with three columns: the configuration attribute, its value, and the related configuration file path.
+As soon as an application is connected to Bonita Central, you can access to Runtime's configuration from the application card. +
+It is displayed as a single (paginated) table, with three columns: the configuration attribute, the value of the attribute and the related configuration file path.
 
 [NOTE]
-For now, the configuration is in read-only mode: you cannot change the configuration from Bonita Central
+The configuration is in read-only mode meaning that it is not possible to change it from Bonita Central. Using setup tool will be required for the moment. 
 
 == Searching
 
@@ -16,7 +16,7 @@ For instance, enter "hibernate-cache" to display the configuration related to Hi
 
 == Sorting
 
-From each column, you can sort the page alphabetically by clicking on the column header.
+Per column, sort the page alphabetically by clicking on the column header.
 
 == Downloading the configuration
 
