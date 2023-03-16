@@ -7,7 +7,7 @@ asciidoc:
   attributes:
     # ref versions of other components
   bonitaTechnicalVersion: '8.0.0' # latest public community version
-  bonitaVersion: 2023.1
+  bonitaversion: 2023.1
   bcdDocVersion: '3.6'
     # page attributes
   page-pagination: true # display links to previous/next pages at the bottom of the page
