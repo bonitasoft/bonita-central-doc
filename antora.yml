@@ -5,8 +5,9 @@ prerelease: .alpha-01
 start_page: ROOT:overview.adoc
 asciidoc:
   attributes:
-  bonitaTechnicalVersion: '8.0.0' # latest public community version
     # ref versions of other components
+  bonitaTechnicalVersion: '8.0.0' # latest public community version
+  bonitaVersion: 2023.1
   bcdDocVersion: '3.6'
     # page attributes
   page-pagination: true # display links to previous/next pages at the bottom of the page
