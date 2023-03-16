@@ -10,7 +10,7 @@ For Subscription editions only.
 Bonita Central is provided as a Docker image that can be downloaded from xref:{bonitaversion}@bonita::bonita-repository-access.adoc[Bonita Artifact Repository]
 
 
-== Retreiving the Docker image
+== Retrieving the Docker image
 
 ```bash
 docker image pull bonitasoft.jfrog.io/docker/bonita-central:2023.1
@@ -22,7 +22,7 @@ docker image pull bonitasoft.jfrog.io/docker/bonita-central:2023.1
 == Configuration
 
 Bonita Central needs a **specific Bonita Subscription license**, that defines how many remote runtimes you are allowed to manage. +
-Please contact your Customer Success referent to optain such a license. +
+Please contact your Customer Success referent to obtain such a license. +
 Once receive, place this license in a specific folder, called hereafter `<CENTRAL_LIC_FOLDER>`
 
 
