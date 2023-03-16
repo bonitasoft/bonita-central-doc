@@ -25,4 +25,4 @@ jobs:
             ./build-preview.bash --use-multi-repositories
             --start-page "${{ env.COMPONENT_NAME }}"::overview.adoc
             --component-with-branches "${{ env.COMPONENT_NAME }}":"${{ env.COMPONENT_BRANCH_NAME }}"
-            --component-with-branches bonita:"${{ env.BONITA_BRANCH }}"
+            --component-with-branches "bonita":"${{ env.BONITA_BRANCH }}"
