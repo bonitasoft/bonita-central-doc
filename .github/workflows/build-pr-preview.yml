@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-22.04
     env:
       COMPONENT_NAME: central
-      COMPONENT_BRANCH_NAME: ${{ github.head_ref }}
+      COMPONENT_BRANCH_NAME: 1.0
+#      COMPONENT_BRANCH_NAME: ${{ github.head_ref }}
       # Required to pass xref validation
       BONITA_BRANCH: '2023.1'
     steps:
