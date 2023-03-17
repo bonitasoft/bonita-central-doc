@@ -51,13 +51,13 @@ Bonita Runtimes configured in multi-tenancy are not supported.
 |Runtimes - individual or in cluster
 
 |Health-check
-|7.12.y, 7.13.y, 7.14.y, 7.15.y, 8.0.0
+|7.12.x, 7.13.x, 7.14.x, 7.15.x, 8.0.x
 
 |Configuration
-|7.12.y, 7.13.y, 7.14.y, 7.15.y, 8.0.0
+|7.12.x, 7.13.x, 7.14.x, 7.15.x, 8.0.x
 
 |Monitoring
-|7.13.y, 7.14.y, 7.15.y, 8.0.0
+|7.13.x, 7.14.x, 7.15.x, 8.0.x
 
 |===
 
