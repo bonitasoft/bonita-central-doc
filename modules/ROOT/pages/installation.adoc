@@ -1,3 +1,5 @@
-= Installing Bonita Central 
+= Installing Bonita Central
 :description: Installing Bonita Central
 
+[NOTE]
+This page is being written
