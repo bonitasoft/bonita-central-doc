@@ -13,8 +13,7 @@ asciidoc:
   page-editable: true
   page-out-of-support: false
   page-next-release: true # TODO: When releasing GA version, set this field to false
-    # TODO set to false when the DocSearch index is updated in production
-  page-hide-search-bar: true
+  page-hide-search-bar: false
 
 nav:
   - modules/ROOT/nav.adoc
