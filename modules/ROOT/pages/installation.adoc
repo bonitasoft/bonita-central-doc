@@ -17,7 +17,7 @@ Ensure you have correctly set your credentials up before going any further.
 docker image pull bonitasoft.jfrog.io/docker/bonita-central:1.0.0
 ```
 
-**_FIXME_**: URL and version to be double-checked
+**_FIXME_**: _URL and version to be double-checked_
 
 
 == Configuration
@@ -29,7 +29,7 @@ Once receive, place this license in a specific folder, called hereafter `<CENTRA
 
 == Starting a new Docker container of Bonita Central
 
-**_FIXME_**: URL and version to be double-checked
+**_FIXME_**: _URL and version to be double-checked_
 
 ```bash
 docker container run -d --name my-bonita-central \
@@ -46,7 +46,7 @@ where:
 
 == Optional docker configuration
 
-**WARNING**: _Do we want to document that_ ?!!!!
+**_FIXME_**: _Do we want to document that_ ?!!!!
 
 |===
 | Environment variable | required | default value | Example
