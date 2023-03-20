@@ -13,7 +13,7 @@ asciidoc:
     page-pagination: true # display links to previous/next pages at the bottom of the page
     page-editable: true
     page-out-of-support: false
-    page-next-release: true # TODO: When releasing GA version, set this field to false
+    page-next-release: false
     page-hide-search-bar: false
 
 nav:
