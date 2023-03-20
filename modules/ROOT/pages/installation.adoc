@@ -14,7 +14,7 @@ Ensure you have correctly set your credentials up before going any further.
 == Retrieving the Docker image
 
 ```bash
-docker image pull bonitasoft.jfrog.io/docker-releases/bonita-central:1.0.0-Beta-01
+docker image pull bonitasoft.jfrog.io/docker-release-local-sp/bonita-central:1.0.0-Beta-01
 ```
 
 == Configuration
@@ -30,7 +30,7 @@ Once receive, place this license in a specific folder, called hereafter `<CENTRA
 docker container run -d --name my-bonita-central \
     -h <HOSTNAME> -v <CENTRAL_LIC_FOLDER>:/opt/bonita_lic \
     --user 1000 -p 8080:8080 \
-    bonitasoft.jfrog.io/docker-releases/bonita-central:1.0.0-Beta-01
+    bonitasoft.jfrog.io/docker-release-local-sp/bonita-central:1.0.0-Beta-01
 ```
 
 where:
