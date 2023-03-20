@@ -42,16 +42,3 @@ where:
 
 * `<HOSTNAME>` is the name of the machine for which you have generated the Bonita license file
 * `<CENTRAL_LIC_FOLDER>` is the folder where you place the license file
-
-
-== Optional docker configuration
-
-**_FIXME_**: _Do we want to document that_ ?!!!!
-
-|===
-| Environment variable | required | default value | Example
-
-| MIN_SUPPORTED_BONITA_VERSION
-| false
-| 7.13
-| `docker container run ... -e 'MIN_SUPPORTED_BONITA_VERSION=7.15'`
