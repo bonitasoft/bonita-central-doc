@@ -17,9 +17,6 @@ Ensure you have correctly set your credentials up before going any further.
 docker image pull bonitasoft.jfrog.io/docker-releases/bonita-central:1.0.0-Beta-01
 ```
 
-**_FIXME_**: _URL and version to be double-checked_
-
-
 == Configuration
 
 Bonita Central needs a **specific Bonita Subscription license**, that defines how many remote runtimes you are allowed to manage. +
@@ -28,8 +25,6 @@ Once receive, place this license in a specific folder, called hereafter `<CENTRA
 
 
 == Starting a new Docker container of Bonita Central
-
-**_FIXME_**: _URL and version to be double-checked_
 
 ```bash
 docker container run -d --name my-bonita-central \
