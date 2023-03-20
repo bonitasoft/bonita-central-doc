@@ -5,15 +5,16 @@ prerelease: .alpha-01
 start_page: ROOT:overview.adoc
 asciidoc:
   attributes:
-  bonitaTechnicalVersion: '8.0.0' # latest public community version
-    # ref versions of other components
-  bcdDocVersion: '3.6'
-    # page attributes
-  page-pagination: true # display links to previous/next pages at the bottom of the page
-  page-editable: true
-  page-out-of-support: false
-  page-next-release: true # TODO: When releasing GA version, set this field to false
-  page-hide-search-bar: false
+    bonitaTechnicalVersion: '8.0.0' # latest public community version
+    bonitaVersion: 2023.1
+      # ref versions of other components
+    bcdDocVersion: '3.6'
+      # page attributes
+    page-pagination: true # display links to previous/next pages at the bottom of the page
+    page-editable: true
+    page-out-of-support: false
+    page-next-release: true # TODO: When releasing GA version, set this field to false
+    page-hide-search-bar: false
 
 nav:
   - modules/ROOT/nav.adoc
