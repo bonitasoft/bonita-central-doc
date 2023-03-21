@@ -2,4 +2,42 @@
 :description: Installing Bonita Central
 
 [NOTE]
-This page is being written
+====
+For Subscription editions only.
+====
+
+
+Bonita Central is provided as a Docker image that can be downloaded from xref:{bonitaVersion}@bonita::bonita-repository-access.adoc[Bonita Artifact Repository]. +
+Ensure you have correctly set your credentials up before going any further.
+
+
+== Retrieving the Docker image
+
+```bash
+docker image pull bonitasoft.jfrog.io/docker/bonita-central:1.0.0-Beta-01
+```
+
+== Configuration
+
+Bonita Central needs a **specific Bonita Subscription license**, that defines how many remote runtimes you are allowed to manage. +
+Please contact your Customer Success referent to obtain such a license. +
+Once receive, place this license in a specific folder, called hereafter `<CENTRAL_LIC_FOLDER>`
+
+
+== Starting a new Docker container of Bonita Central
+
+```bash
+docker container run -d --name my-bonita-central \
+    -h <HOSTNAME> -v <CENTRAL_LIC_FOLDER>:/opt/bonita_lic \
+    --user 1000 -p 8080:8080 \
+    bonitasoft.jfrog.io/docker/bonita-central:1.0.0-Beta-01
+```
+
+where:
+
+* `<HOSTNAME>` is the name of the machine for which you have generated the Bonita license file
+* `<CENTRAL_LIC_FOLDER>` is the folder where you place the license file
+
+Then, you can log in the Bonita Central Application using the default credentials: `captainBonita` / `changeMe`.
+[WARNING]
+Once connected, the default user should be disabled, and a new user should be created.
