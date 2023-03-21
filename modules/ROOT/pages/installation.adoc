@@ -37,3 +37,7 @@ where:
 
 * `<HOSTNAME>` is the name of the machine for which you have generated the Bonita license file
 * `<CENTRAL_LIC_FOLDER>` is the folder where you place the license file
+
+Then, you can log in the Bonita Central Application using the default credentials: `captainBonita` / `changeMe`.
+[WARNING]
+Once connected, the default user should be disabled, and a new user should be created.
