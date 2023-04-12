@@ -39,5 +39,9 @@ where:
 * `<CENTRAL_LIC_FOLDER>` is the folder where you place the license file
 
 Then, you can log in the Bonita Central Application using the default credentials: `captainBonita` / `ch4ng3-M3!`.
+
 [WARNING]
-Once connected, the default user should be disabled, and a new user should be created.
+Once connected, the default user should be disabled, and a new user should be created. +
+To do this, click the "Organization management" button in the top right of Bonita Central, as illustrated below.
+
+image::organization-management-button.png[Organization Management button]
