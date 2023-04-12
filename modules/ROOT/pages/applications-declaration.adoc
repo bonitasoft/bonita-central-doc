@@ -18,7 +18,7 @@ The only information you will have to provide is :
 
 * A name and a description for the application. Make it transparent both for technical and business users
 * Runtime end point to access it : URL, IP address. For Runtimes in a cluster it will be load balancer's URL/IP address.
-* Connection credentials - Bonita Runtime admin username and password. In all cases except LDAP, the information provided will not be stored in Bonita Central, being only used to establish a connection with the engine.
+* Connection credentials - Bonita Runtime admin username and password. Unless you use LDAP authentication, the information provided will not be stored in Bonita Central, being used only to establish a connection with the engine.
 
 [NOTE]
 ====
@@ -32,7 +32,13 @@ If one of the following authentication method is used : Basic authentication, LD
 
 [WARNING]
 ====
-If you are using the LDAP authentication method, we recommend that you remove the admin authorization rights from the username after application declaration
+If you are using the LDAP authentication method, an LDAP user is still required for monitoring. We recommend that you follow this procedure:
+
+* Choose a username in your LDAP directory (a technical account as described in above note)
+* Assign admin authorization rights to the username
+* With this username, declare the list of applications you want to monitor
+* Remove the admin authorization rights from the username afterward
+* The username will still be used to monitor the applications, without the need for admin authorization rights
 ====
 
 === Establishing a connection with Bonita Runtime
