@@ -22,7 +22,7 @@ The only information you will have to provide is :
 
 [NOTE]
 ====
-If one of the following authentication method is used : Basic authentication, LDAP, SSO, the following should be applied:
+The following should be applied:
 
 * The username should be known in Bonita Runtime organization
 * The username should not be assigned to a real member of your organization
