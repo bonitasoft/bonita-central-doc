@@ -1,14 +1,13 @@
 = Monitoring in Bonita Central
 :description: Monitoring in Bonita Central
 
-Once an application is connected from Bonita Central, you can access the Runtime monitoring from the application card. +
+Once the connection between an application Runtime and Bonita Central is established, you can access the Runtime monitoring from the application card. +
 A set of metrics are displayed with dedicated widgets, related to Runtime works, connectors, sessions, JVM, ...
 
 == Refreshing the monitoring values
 
-By default, the metrics are regularly refreshed on the monitoring page. This can be disabled using the Auto refresh slider.
+By default, the metrics are refreshed every 5 minutes. This can be disabled using the auto refresh slider.
 Moreover, a manual refresh can be triggered on demand by clicking on the Refresh button.
-
 
 == Monitoring a cluster
 
