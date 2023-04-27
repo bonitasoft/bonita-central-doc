@@ -1,7 +1,6 @@
 name: central
 title: Central
 version: '1.0'
-prerelease: -beta
 start_page: ROOT:overview.adoc
 asciidoc:
   attributes:
