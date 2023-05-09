@@ -19,7 +19,7 @@ Once the configuration is done, the monitoring page shows a set of metrics for e
 
 === Monitoring single node
 
-
+image::architecture-single.png[Bonita Central with single node]
 
 === Monitoring a cluster
 
@@ -28,7 +28,7 @@ Bonita Central currently uses the load balancer to access one of the nodes - non
 Since the application has been connected through its load balancer, Bonita Central may need connection information for each node. 
 See xref:ROOT:network-configuration.adoc[network configuration] for details. +
 
-
+image::architecture-cluster.png[Bonita Central with cluster]
 
 == Monitoring values 
 
