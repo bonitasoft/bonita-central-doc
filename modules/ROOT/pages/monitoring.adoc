@@ -4,23 +4,43 @@
 Once the connection between an application Runtime and Bonita Central is established, you can access the Runtime monitoring from the application card. +
 A set of metrics are displayed with dedicated widgets, related to Runtime works, connectors, sessions, JVM, ...
 
-== Refreshing the monitoring values
+== Monitoring 
 
-By default, the metrics are refreshed every 5 minutes. This can be disabled using the auto refresh slider.
-Moreover, a manual refresh can be triggered on demand by clicking on the Refresh button.
-
-== Monitoring a cluster
-
-A cluster is a collection of nodes each running a Bonita Runtime.
-To be monitored, each node should be accessible from Bonita Central.
-See xref:ROOT:network-configuration.adoc[network configuration] for details. +
-Since the application has been connected through its load balancer, Bonita Central may need connection information for each node.
-
-Bonita Central try to connect to each node using usual port and paths.
-If it does not succeed (typically if the port is not the default one), a warning is raised.
-Then, the connections can be configured by clicking on the Configure button:
-
-- An URL should be entered for each node
-- A Connect button allows to check the connection
+The connection configuration to each node will be established using usual port and paths.
+If it does not succeed - for exemple if the port is not the default one, a warning will be raised in Bonita Central. 
+The unsuccesful connections configuration can be recovered from Monitoring page => Configure button. 
+[NOTE]
+====
+- An URL should be provided per node
+- The "Connect" button allows to establish and check connection's state
+====
 
 Once the configuration is done, the monitoring page shows a set of metrics for each node.
+
+=== Monitoring single node
+
+
+
+=== Monitoring a cluster
+
+A cluster is a collection of nodes, connected to a load balancer and each running a Bonita Runtime.
+Bonita Central currently uses the load balancer to access one of the nodes - non-determinist to perform the agent setup by using Bonita authentication. 
+Since the application has been connected through its load balancer, Bonita Central may need connection information for each node. 
+See xref:ROOT:network-configuration.adoc[network configuration] for details. +
+
+
+
+== Monitoring values 
+
+Bonita Central will retrieve the monitoring information from the monitoring endpoint by calling each and every active node. 
+Bonita-centered monitoring information, that will help you supervise your Bonita applications. 
+
+- *Work Queue* : Number of *pending works* versus maximum size of the *worker queue*
+- *Connector Queue* : Number of *pending connectors* versus maximum size of the *connector queue*
+- HTTP requests in error
+
+
+== Refresh monitoring values
+
+By default, the metrics are refreshed every 5 minutes. This can be disabled using the auto-refresh slider.
+Moreover, a manual refresh can be triggered on demand by clicking on the Refresh button.
