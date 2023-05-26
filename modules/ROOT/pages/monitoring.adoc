@@ -37,6 +37,7 @@ Bonita-centered monitoring information, that will help you supervise your Bonita
 - *Connector Queue* : Number of *pending connectors* versus maximum size of the *connector queue*
 - HTTP requests in error
 
+As the values being retrieved from Bonita Runtime, usual xref:{bonitaVersion}@bonita::runtime:performance-tuning.adoc[perfomance tuning] actions described for Bonita Runtime are applicable. 
 
 == Refresh monitoring values
 
