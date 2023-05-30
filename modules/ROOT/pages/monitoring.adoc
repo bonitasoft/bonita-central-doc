@@ -4,11 +4,11 @@
 Once the connection between an application Runtime and Bonita Central is established, you can access the Runtime monitoring from the application card. +
 A set of metrics are displayed with dedicated widgets, related to Runtime works, connectors, sessions, JVM, ...
 
-== Monitoring 
+== Monitoring
 
 The connection configuration to each node will be established using usual port and paths.
-If it does not succeed - for exemple if the port is not the default one, a warning will be raised in Bonita Central. 
-The unsuccesful connections configuration can be recovered from Monitoring page => Configure button. 
+If it does not succeed - for exemple if the port is not the default one, a warning will be raised in Bonita Central.
+The unsuccesful connections configuration can be recovered from Monitoring page => Configure button.
 [NOTE]
 ====
 - An URL should be provided per node
@@ -19,24 +19,25 @@ Once the configuration is done, the monitoring page shows a set of metrics for e
 
 === Monitoring single node
 
-Bonita Central will retrieve monitoring data directly from the node. 
+Bonita Central will retrieve monitoring data directly from the node.
 
 === Monitoring a cluster
 
 A cluster is a collection of nodes, connected to a load balancer and each running a Bonita Runtime.
-Bonita Central currently uses the load balancer to access one of the nodes - non-determinist to perform the agent setup by using Bonita authentication. 
-Since the application has been connected through its load balancer, Bonita Central may need connection information for each node. 
+Bonita Central currently uses the load balancer to access one of the nodes - non-determinist to perform the agent setup by using Bonita authentication.
+Since the application has been connected through its load balancer, Bonita Central may need connection information for each node.
 See xref:ROOT:network-configuration.adoc[network configuration] for details. +
 
-== Monitoring values 
+== Monitoring values
 
-Bonita Central will retrieve the monitoring information from the monitoring endpoint by calling each and every active node. 
-Bonita-centered monitoring information, that will help you supervise your Bonita applications. 
+Bonita Central will retrieve the monitoring information from the monitoring endpoint by calling each and every active node.
+Bonita-centered monitoring information, that will help you supervise your Bonita applications.
 
 - *Work Queue* : Number of *pending works* versus maximum size of the *worker queue*
 - *Connector Queue* : Number of *pending connectors* versus maximum size of the *connector queue*
 - HTTP requests in error
 
+As the values being retrieved from Bonita Runtime, usual xref:{bonitaVersion}@bonita::performance-tuning.adoc[performance tuning] actions described for Bonita Runtime are applicable.
 
 == Refresh monitoring values
 
