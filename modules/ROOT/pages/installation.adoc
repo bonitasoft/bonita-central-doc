@@ -1,12 +1,6 @@
 = Installing Bonita Central
 :description: Installing Bonita Central
 
-[NOTE]
-====
-For Subscription editions only.
-====
-
-
 Bonita Central is provided as a Docker image that can be downloaded from xref:{bonitaVersion}@bonita::bonita-repository-access.adoc[Bonita Artifact Repository]. +
 Ensure you have correctly set your credentials up before going any further.
 
