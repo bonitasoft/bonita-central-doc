@@ -7,7 +7,7 @@ on:
       - 'antora.yml'
       - '.github/workflows/build-pr-preview.yml'
 jobs:
-  build_preview:
+  validate_xref:
     runs-on: ubuntu-22.04
     env:
       COMPONENT_NAME: central
@@ -21,9 +21,12 @@ jobs:
       BONITA_BRANCH_2021_1: '2021.1'
       BONITA_BRANCH_FOR_TOOLKIT: '2022.2'
     steps:
-      - name: Build preview
-        uses: bonitasoft/bonita-documentation-site/.github/actions/build-pr-site/@master
+      - name: Validate xref
+        # Branch of https://github.com/bonitasoft/bonita-documentation-site/pull/582
+        uses: bonitasoft/bonita-documentation-site/.github/actions/build-pr-site/@feat/xref_validation
         with:
+          # Branch of https://github.com/bonitasoft/bonita-documentation-site/pull/582
+          doc-site-branch: feat/xref_validation
           # '>' Replace newlines with spaces (folded)
           # '-' No newline at end (strip)
           build-preview-command: >-
