@@ -1,13 +1,6 @@
 = Bonita Central
 :description: Bonita Central.
 
-[CAUTION]
-====
-* internal link xref:::i-do-not-exist.adoc[do not exist internal]
-* bonita link xref:{bonitaVersion}@bonita::performance-tuning_NOT_EXIST.adoc[do not exist bonita]
-====
-
-
 Welcome to Bonita Central, the production management tool that: 
 
 - “has all in one place” for configuration 
